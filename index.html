@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>FORM</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="form-field">
+
+      <div class="troggle-btn">
+        <button id="loginBn" class="login btn" onclick="login()">Log In</button>
+        <button id="registerBn"  class="register btn" onclick="register()">Register</button>
+      </div>
+
+        <form class="log" id="login">
+          <h2>LOGIN</h2>
+          <input type="text" placeholder="Enter Your Username" required class="input-field">
+          <input type="email" placeholder="Enter Your E.Mail" required class="input-field">
+          <input type="password" placeholder="Enter Your Password" required class="input-field">
+         <label> <input type="checkbox" name="" id="" class="input-field-checkbox"><span>Remember Your Password</span> <br/></label>
+
+
+          <input type="submit" value="Submit" class="submit"title="Submit Form" >
+
+        </form>
+
+
+        <form class="reg" id="register">
+          <h2>REGISTER</h2>
+        <input type="text" placeholder="Enter Your First-Name" required class="input-field input-field-strong">
+        <input type="text" placeholder="Enter Your Last-Name" required class="input-field  input-field-strong">
+        <input type="email" placeholder="Enter Your E.Mail" required class="input-field">
+        <input type="password" placeholder="Create Strong Password" required class="input-field-strong"title="Used 8 Characters In Password">
+        <input type="password" placeholder="Confirm Your Password" required class="input-field-strong" title="Confirm Password">
+       <label><input type="checkbox" name="" id="" class="input-field-checkbox"><span>Again Check Your Details</span> <br/> </label>
+
+
+        <input type="submit" value="Submit" class="submit">
+
+      </form>
+
+    
+
+    </div>
+
+  </div> <!-- container -->
+
+<script src="index.js"></script>
+
+
+</body>
+
+</html>

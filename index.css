@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-image: url("360_F_691192190_4M1HgpRLj2tkbdonci9wBEIfjTYXlN5y.jpg"); 
+    background-size: cover;
+    background-position: center;
+}
+.form-field{
+    width:400px;
+    height:500px;
+     /* background-color: rgba(14, 209, 170, 0.149);   */
+    position: relative;
+    border:solid 5px white;
+    border-radius: 10px;
+    position: relative;
+      overflow: hidden;  
+   backdrop-filter:blur(20px);
+}
+.troggle-btn{
+    margin-top: 30px;
+    width:400px;
+    height:60px;
+    
+}
+.btn{
+    width:150px;
+    height: 40px;
+    cursor: pointer;
+    margin:10px 20px;
+background-color: transparent;
+transition: 0.5s;
+border-radius: 20px;
+}
+form {
+    position: absolute;
+    
+}
+
+ .input-field{
+    margin: 20px 20px;
+    width: 350px;
+    height: 40px;
+    border-bottom: solid 2px black;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+.input-field-checkbox{
+width:15px;
+height:15px;
+background-color: transparent;
+margin: 10px 5px 15px 5px;
+cursor: pointer;
+}
+
+
+.submit{
+    width:150px;
+    height: 40px;
+    cursor: pointer;
+background-color: transparent;
+margin:50px 20px;
+border-radius: 20px;
+transition: 0.5s;
+
+}
+.reg{
+    position: absolute;
+    top: 18%;
+    left: 400px;
+    width:400px;
+  transition: 0.5s;
+
+}
+.log{
+    position: absolute;
+    top: 18%;
+    width:400px;
+  transition: 0.5s;
+
+}
+.input-field-strong{
+    margin: 20px 20px;
+    width: 150px;
+    height: 40px;
+    border-bottom: solid 2px black;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+/*HOVER*/
+.submit:hover{
+    border: 2px solid white;
+    box-shadow: 2px 2px 2px 2px grey;
+    background: transparent;}
+.btn:hover{
+    box-shadow: 2px 2px 2px 2px grey;
+    background: transparent;
+    border: 2px solid white;
+}
+
+h2{
+    text-align: center;
+    text-decoration: dashed;
+    transform: matrix();
+}
