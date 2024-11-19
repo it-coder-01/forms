@@ -116,3 +116,6 @@ h2{
     text-decoration: dashed;
     transform: matrix();
 }
+::placeholder{
+    color:white;
+}
